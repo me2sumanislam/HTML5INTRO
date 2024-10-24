@@ -1,63 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form for sign-In</title>
-     <style>
-        label{
-    display: block;
-    margin:5px 10px;
-}
- 
-     </style>
-    
-</head>
-<body>
-    <h2 style="text-align: center;">Fill this From </h2>
-    
-     <form action="#">
-        <label for="fname">First Name:
-        <input type="text" id="fname" placeholder="First Name">
-    </label>
-        <label for="lname">Last Name :
-        <input type="text" id="lname" placeholder="Last Name">
-    </label>
-         <label for="email">Your Email:
-         <input type="email" placeholder="Inter Your Email">
+    <link rel="stylesheet" href="./style/nav.css">
+    <style>
+      label {
+        display: block;
+        margin: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="form.html">form</a></li>
+          <li><a href="table.html">Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 style="text-align: center">Fill this From</h2>
+
+      <form action="#">
+        <label for="fname"
+          >First Name:
+          <input type="text" id="fname" placeholder="First Name" />
+        </label>
+        <label for="lname"
+          >Last Name :
+          <input type="text" id="lname" placeholder="Last Name" />
+        </label>
+        <label for="email"
+          >Your Email:
+          <input type="email" placeholder="Inter Your Email" />
         </label>
         <fieldset>
-            <legend>Pick One Pitha</legend>
-            <label for="chitoy">
-               <input type="radio" name="pitha" id="chitoy">Chitoy
-            </label>
-            <label for="Vapa">
-               <input type="radio" name="pitha" id="vapa">Vapa
-            </label>
-            <label for="puri">
-               <input type="radio" name="pitha" id="puri">puri
-            </label>
+          <legend>Pick One Pitha</legend>
+          <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy" />Chitoy
+          </label>
+          <label for="Vapa">
+            <input type="radio" name="pitha" id="vapa" />Vapa
+          </label>
+          <label for="puri">
+            <input type="radio" name="pitha" id="puri" />puri
+          </label>
         </fieldset>
-        
-        <fieldset>
-            <legend>Select One or More Vorta</legend>
-            <label for="vorta">
-                <input type="checkbox" name="vorta" id="Sutki"> Sutki
-            </label>
-            <label for="vorta">
-                <input type="checkbox" name="vorta" id="Alu"> Alu
-            </label>
-            <label for="vorta">
-                <input type="checkbox" name="vorta" id="Fish">Fish
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Special Instruction</legend>
-            <textarea name="" id="" cols="30" rows="2"></textarea>
-        </fieldset>
-        <input type="reset" value="Reset">
-        <input type="reste" value="Submit">
-     </form>
 
-</body>
+        <fieldset>
+          <legend>Select One or More Vorta</legend>
+          <label for="vorta">
+            <input type="checkbox" name="vorta" id="Sutki" /> Sutki
+          </label>
+          <label for="vorta">
+            <input type="checkbox" name="vorta" id="Alu" /> Alu
+          </label>
+          <label for="vorta">
+            <input type="checkbox" name="vorta" id="Fish" />Fish
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Special Instruction</legend>
+          <textarea name="" id="" cols="30" rows="2"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset" />
+        <input type="reste" value="Submit" />
+      </form>
+    </main>
+  </body>
 </html>
