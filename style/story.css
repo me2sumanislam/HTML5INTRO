@@ -14,3 +14,7 @@ img{
 
 }
  
+ #btn:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+ }
